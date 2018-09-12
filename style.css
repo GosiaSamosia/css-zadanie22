@@ -2,11 +2,9 @@ p {
     color:darkcyan;
 }
 
-h1 {
-    background-color:cyan;
-}
-
-h3 {
+h1,h3 {
     background-color:lightcyan;
+}
+h1+h3 {
     color:darkblue;
 }
